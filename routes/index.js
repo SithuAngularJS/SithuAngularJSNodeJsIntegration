@@ -9,7 +9,8 @@ router.get('/', function(req, res, next) {
 
 /* GET Jso data */
 router.get('/data', function(req,res){
-	res.json([{"id": 1, "name": "Mymm", "city": "Pantano do Sul"},
+	res.json([
+        {"id": 1, "name": "Mymm", "city": "Pantano do Sul"},
         {"id": 2, "name": "Skyble", "city": "Guilmaro"},
         {"id": 3, "name": "Tagfeed", "city": "Gnosjö"},
         {"id": 4, "name": "Realcube", "city": "Jrashen"},
